@@ -1,6 +1,16 @@
 <mvc:View controllerName="ic.phoron.servicerepairordertimefeedback.controller.Main"
     xmlns:mvc="sap.ui.core.mvc"
-    xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
+    xmlns="sap.m"
+>
+    <Page
+        id="idMainPage"
+        title="{i18n>title}"
+        class="sapUiContentPadding sapUiResponsivePadding--header sapUiResponsivePadding--content"
+        showNavButton="true"
+        navButtonPress=".onPageNavButtonPress"
+    >
+        <content>
+            <!-- Content -->
+        </content>
     </Page>
 </mvc:View>
